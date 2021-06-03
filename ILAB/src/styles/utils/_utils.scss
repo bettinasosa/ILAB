@@ -1,0 +1,19 @@
+// @import 'bootstrap/variables';
+
+// utils
+.can-click {
+  cursor: pointer;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.modal-backdrop-light {
+  background: map-get($map: $theme-colors, $key: light);
+  opacity: 1;
+
+  &.modal-backdrop.show {
+    opacity: 1;
+  }
+}
